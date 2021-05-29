@@ -1,0 +1,2 @@
+﻿#!/bin/bash
+sudo tar cvf homebackup.tar /home
