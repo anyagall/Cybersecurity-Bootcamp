@@ -1,0 +1,13 @@
+﻿#!/bin/bash
+
+
+myip=$(ifconfig | grep 'inet'  | head -n 1 | awk '{print $2}')
+dt=$(date)
+
+
+clear
+echo "scripty"
+echo ""
+echo $(date)
+echo $(hostname)
+echo "IP address is: $myip"
